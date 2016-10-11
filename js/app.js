@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
 	var page = $('.entry-content').data("default");
 	loadContent(page);
@@ -7,7 +8,7 @@ $(document).ready(function() {
 		loadContent(page);
 	})
 })
-
+*/
 function loadContent(page) {
 	console.log(page);
 	jQuery.ajax({
@@ -19,5 +20,5 @@ function loadContent(page) {
 	  error: function(xhr, textStatus, errorThrown) {
 	    alert("Error loading template");
 	  }
-	});	
+	});
 }
