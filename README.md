@@ -8,7 +8,9 @@ Le site du cours : https://jmbruel.github.io/teaching/MobileModeling.html
 
 ## Concepts
 
-[Ajouter la composition du groupe (Prénom, Nom) ici]
+VIDAL Olivier 
+POMAREDE Remi
+NZARAMBA Jean-Eric
 
 ## Outils de modélisation d'interfaces
 
