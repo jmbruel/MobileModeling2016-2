@@ -1,0 +1,24 @@
+body {
+	background-color: #fcfcfc;
+}
+
+nav {
+	background : url('../img/header_background.png') center / cover;
+	height: 250px;
+    box-shadow: none;
+    padding-top: 10px;
+}
+
+.container.main {
+	margin-top: -170px;
+	position: relative;
+}
+
+.col img {
+	width: 100%;
+}
+
+.entry-content {
+	background: white;
+	padding: 10px 30px;
+}
