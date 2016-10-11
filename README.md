@@ -14,7 +14,8 @@ NZARAMBA Jean-Eric
 
 ## Outils de modélisation d'interfaces
 
-Eliana, Fabien, Manon
+Eliana VALLES
+Manon CAMBOULIVES
 
 ## Plateformes de développement Android
 
