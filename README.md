@@ -22,4 +22,4 @@ Jérémy LE NEVÉ
 
 ## Comparatif iOS/Android
 
-[Ajouter la composition du groupe (Prénom, Nom) ici]
+Gabriel, Cassandra, Cindy, Romain
