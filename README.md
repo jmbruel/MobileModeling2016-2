@@ -12,7 +12,7 @@ Le site du cours : https://jmbruel.github.io/teaching/MobileModeling.html
 
 ## Outils de modélisation d'interfaces
 
-[Ajouter la composition du groupe (Prénom, Nom) ici]
+Eliana, Fabien, Manon
 
 ## Plateformes de développement Android
 
