@@ -10,7 +10,7 @@ Site du cours de modélisation des applications mobiles de la LP APSIO 2016-2017
 
 ## Outils de modélisation d'interfaces
 
-[Ajouter la composition du groupe (Prénom, Nom) ici]
+Eliana, Fabien, Manon
 
 ## Comparatif iOS/Android
 
