@@ -9,6 +9,14 @@ nav {
     padding-top: 10px;
 }
 
+h3 {
+	color: #212121; 
+}
+
+h4 {
+	color: #424242;
+}
+
 .container.main {
 	margin-top: -170px;
 	position: relative;
