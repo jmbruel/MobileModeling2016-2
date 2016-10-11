@@ -16,7 +16,9 @@ Eliana, Fabien, Manon
 
 ## Plateformes de développement Android
 
-[Ajouter la composition du groupe (Prénom, Nom) ici]
+Nathan COUSTENOBLE
+Brice Taillefer
+Jérémy LE NEVÉ
 
 ## Comparatif iOS/Android
 
