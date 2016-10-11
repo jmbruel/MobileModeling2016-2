@@ -2,11 +2,13 @@
 <html>
 
 <head>
+    <meta charset="utf-8" />
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <link rel="icon" type="img/png" href="img/favicon.png" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
@@ -14,31 +16,69 @@
 </head>
 
 <body>
-    <p>Hello world</p>
 
+    <div class="container">
+
+        <p>Hello world</p>
+
+        <!-- Image -->
+        <img class="materialboxed" width="650" src="img/img1.jpg">
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th data-field="id">Android</th>
+                    <th data-field="name">iOS</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><b>Modelisation</b></td>
+                    <td>Via le plug-in SimpleUMLCE</td>
+                    <td>Via XCodes</td>
+                </tr>
+                <tr>
+                    <td><b>Materiel</b></td>
+                    <td>Windows/Mac/Linux</td>
+                    <td>Dév : Windows/Linux (déconseillés)/Mac Compilation : Mac</td>
+                </tr>
+                <tr>
+                    <td><b>Destination</b></td>
+                    <td>plusieurs smartphones</td>
+                    <td>smartphone apple</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
     <footer class="page-footer">
-             <div class="container">
-               <div class="row">
-                 <div class="col l6 s12">
-                   <h5 class="white-text">PU CSS Layer</h5>
-                 </div>
-                 <div class="col l4 offset-l2 s12">
-                   <h5 class="white-text">Liens</h5>
-                   <ul>
-                     <li><a class="grey-text text-lighten-3" href="#!">Concept UML</a></li>
-                     <li><a class="grey-text text-lighten-3" href="#!">Outils et langages de description d'écran</a></li>
-                     <li><a class="grey-text text-lighten-3" href="#!">Platerforme de développement Android</a></li>
-                     <li><a class="grey-text text-lighten-3" href="#!">Différence Android / iOsS</a></li>
-                   </ul>
-                 </div>
-               </div>
-             </div>
-             <div class="footer-copyright">
-               <div class="container">
-               © 2016 Pu CSS Layer - LP APSIO
-               </div>
-             </div>
-           </footer>
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">PU CSS Layer</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Liens</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Concept UML</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Outils et langages de description d'écran</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Platerforme de développement Android</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Différence Android / iOS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016 Pu CSS Layer - LP APSIO
+            </div>
+        </div>
+    </footer>
+
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery.js"></script>
