@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <meta charset="utf-8">
+    <title>Plateformes de développement Android</title>
+</head>
+
+<body>
+
+<nav class="transparent">
+    <div class="nav-wrapper">
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s10">
+                <a href="index.html" class="brand-logo">Mobile modeling</a>
+                <a href="#!" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="ComparatifAndroid_iOS.html">Comparatif<i class="tiny material-icons right">equalizer</i></a></li>
+                    <li><a href="concept.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
+                    <li><a href="plateform_dev.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
+                    <li><a href="outils.html">Outils de modélisation IHM<i class="material-icons right">build</i></a></li>
+                </ul>
+            </div>
+            <div class="col s1"></div>
+        </div>
+    </div>
+
+    <ul id="slide-out" class="side-nav">
+        <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+        <li><a href="concept.html">Concept UML</a></li>
+        <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+        <li><a href="outils.html">Outils de modélisation IHM</a></li>
+    </ul>
+
+</nav>
+
+
+    <div class="container main">
+        <div class="row">
+            <div class="col s12">
+                <div class="entry-content z-depth-1">
+                    <!-- COMMENCEZ LA MODIFICATION ICI ! -->
+                    <!-- CONTENU DE LA PAGE -->
+                    <h2>Plateformes de développement Android</h2>
+                    <p class="flow text">
+                        Il existe plusieurs plateformes de développement pour Android.</br>
+                        La plateforme officielle, Android Studio, est aussi la plus utilisée.</br>
+                        Cependant, elle possède plusieurs concurrents, souvent des IDE déjà existants qui possèdent un module dédié au développement mobile.</br>
+                        Parmi eux, Eclipse est le plus utilisé. Il possède le plug-in ADT, lui permettant de développer sur Android.</br>
+                        Il existe aussi Apache Cordova (anciennement Adobe PhoneGap), Oracle NetBeans et WinDev Mobile.</br>
+                        À noter que Cordova est multi-plateformes : il supporte HTML, CSS, JavaScript et construit une application à partir de ces langages, qui sont reconnus par tous les smartphones.</br>
+                        </br>
+                        Cette liste est non-exhaustive pour deux raisons :</br>
+                        - il existe de nombreux IDE pour Android</br>
+                        - seuls Android Studio et Eclipse + ADT sont vraiment utilisés</br>
+                        </br>
+                        C’est pourquoi nous nous contenterons de comparer Android Studio et Eclipse ADT.</br>
+
+                    </p>
+
+                    <h3>Comparaison ADT (Eclipse) et Android Studio</h3>
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>ADT (Eclipse)</th>
+                            <th>Android Studio</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td><b>Facilité d'installation</b></td>
+                            <td>Moyen</td>
+                            <td>Simple</td>
+                        </tr>
+                        <tr>
+                            <td><b>Langue</b></td>
+                            <td>Nombreuses</td>
+                            <td>Anglais</td>
+                        </tr>
+                        <tr>
+                            <td><b>Performance</b></td>
+                            <td>Peut être lourd</td>
+                            <td>Rapide</td>
+                        </tr>
+                        <tr>
+                            <td><b>Système de build</b></td>
+                            <td>Ant</td>
+                            <td>Gradle</td>
+                        </tr>
+                        <tr>
+                            <td><b>Génération de variante et de multiple APK</b></td>
+                            <td>Non</td>
+                            <td>Oui</td>
+                        </tr>
+                        <tr>
+                            <td><b>Langue</b></td>
+                            <td>Base</td>
+                            <td>Avancé</td>
+                        </tr>
+                        <tr>
+                            <td><b>Performance</b></td>
+                            <td>Oui</td>
+                            <td>Oui</td>
+                        </tr>
+                        <tr>
+                            <td><b>Android Code completion et refactoring</b></td>
+                            <td>Base</td>
+                            <td>Avancé</td>
+                        </tr>
+                        <tr>
+                            <td><b>Éditeur d'interface graphique</b></td>
+                            <td>Oui</td>
+                            <td>Oui</td>
+                        </tr>
+                        <tr>
+                            <td><b>Signature d'APK et gestion de Keystore</b></td>
+                            <td>Oui</td>
+                            <td>Oui</td>
+                        </tr>
+                        <tr>
+                            <td><b>Support NDK</b></td>
+                            <td>Oui</td>
+                            <td>Oui</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+
+                    <h3>Eclipse + ADT</h3>
+                    <div class="row">
+                        <!-- OBLIGATOIRE -->
+                        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+                        <div class="col s1"><img class="materialboxed" width="650" src="img/logo_eclipse.png"></div>
+                        <!-- Ici s4 représente un tiers de s12, donc un tiers de la largeur puisqu'on veut 3 images alignées -->
+                    </div>
+                    <p class="flow text">
+                        Le plugin ADT développé par Google à été l’outil de développement officiel d’application Android jusqu’au 26 juin 2015, date à laquelle le plugin ne sera plus supporté.</br>
+                        Google supporte désormais Android Studio et a développé un outil de migration des projets sous ADT vers Android Studio.</br></br>
+                    </p>
+                    <h5>Interface :</h5>
+                    <p class="flow text">
+                        ADT étant lancé depuis Eclipse, les utilisateurs d’Eclipse auront déjà une grande maîtrise de leur environnement, l’interface étant la même.</br>
+                        ADT ajoute les accès au SDK Manager dans la barre d’outil.
+                    </p>
+                    <div class="row">
+                        <!-- OBLIGATOIRE -->
+                        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+                        <div class="col s4"><img class="materialboxed" width="650" src="img/eclipse_adt.png"></div>
+                        <!-- Ici s4 représente un tiers de s12, donc un tiers de la largeur puisqu'on veut 3 images alignées -->
+                    </div>
+                    <h4>Rapidité : </h4>
+                    <p>
+                        Eclipse n’étant pas entièrement conçu pour le développement Android, le lancement est plus long que son remplaçant, plus encore si le nombre de plugin est grand.
+                    </p>
+                    <h4>Inconvénient : </h4>
+                    <p class="flow text">
+                        Chaque version d’ADT ne peut être utilisé qu’avec la version du SDK tools correspondante (depuis ADT 8.x/SDK Tools r8).
+                    <p>
+                    <h4>Historique :</h4>
+                    <h5>ADT 23.0.0 (Juin 2014 - Dernière version majeure officielle)</h5>
+                    <p class="flow text">
+                        Ajout des outils Android Wear et d’images système.
+                    <p>
+                    <h5>ADT 22.0.0 (Mai 2013)</h5>
+                    <p class="flow text">
+                        Ajout d’une fonctionnalité expérimentale d’export de projet vers Gradle (Android Studio).
+                    <p>
+                    <h5>ADT 9.0.0 (Janvier 2011)</h5>
+                    <p class="flow text">
+                        Les machines virtuelles Android sauvegardent leur état à l’arrêt, pour une reprise plus rapide.</br>
+                        Améliorations de l’éditeur visuel, et ajout d’un versionning de l’éditeur (pour voir l’interface dans telle version d’android).
+
+                    <p>
+                    <h5>ADT 8.0.0 (Décembre 2010 - Première version considérée finale par Google)</h5>
+                    <p class="flow text">
+                    <ul class="collection">
+                        <li class="collection-item">Les versions d’ADT correspondent maintenant à la version du SDK supporté.</li>
+                        <li class="collection-item">Séparation du build pour but de déboggage et du build production. La valeur dans l’android Manifest est mise sur debug lors d’un build debug.</li>
+                        <li class="collection-item">Editeur Visuel entièrement refait. (This is still a work in progress.) Inclut maintenant :
+                            <ul class="collection">
+                                <li class="collection-item">Drag&Drop de la palette à l’interface.</li>
+                                <li class="collection-item">Drag&Drop d’une interface à une autre.</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">Plugin pour une meilleur visibilité de la hiérarchie pour Eclipse.</li>
+                        <li class="collection-item">L’emplacement de l’ android.jar et de la javadoc peut être configurée.</li>
+                    </ul>
+                    <p>
+                    <h3>Android Studio</h3>
+                    <div class="row">
+                        <!-- OBLIGATOIRE -->
+                        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+                        <div class="col s1"><img class="materialboxed" width="650" src="img/logo_android_studio.png"></div>
+                        <!-- Ici s4 représente un tiers de s12, donc un tiers de la largeur puisqu'on veut 3 images alignées -->
+                    </div>
+                    <p class="flow text">
+                        Android Studio est l’environnement de développement officiel pour développer des applications Android. Il est basé sur IntelliJ IDEA.
+                    </p>
+                    <h4>Interface :</h4>
+                    <div class="row">
+                        <!-- OBLIGATOIRE -->
+                        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+                        <div class="col s4"><img class="materialboxed" width="650" src="img/android_studio.png"></div>
+                        <!-- Ici s4 représente un tiers de s12, donc un tiers de la largeur puisqu'on veut 3 images alignées -->
+                    </div>
+                    <h4>Historique :</h4>
+                    <p class="flow text">
+                        Android Studio est annoncé le 15 mai 2013 lors du Google I/O et une version "Early Access Preview" est disponible le jour même.
+                    </p>
+                    <h5>Android Studio v1.0 (Décembre 2014)</h5>
+                    <p class="flow text">
+                        Le 8 décembre 2014, Android Studio passe de la version bêta à la version stable 1.0.</br>
+                        Android Studio remplace alors Eclipse ADT en tant qu’IDE officiel.
+                    </p>
+                    <h5>Android Studio v2.0 (Avril 2016)</h5>
+                    <p class="flow text">
+                        Cette version, sortie le 7 avril, est centrée sur la performance.</br>
+                        Elle introduit un émulateur beaucoup plus rapide.
+                    </p>
+                    <h5>Android Studio v2.2 (Septembre 2016)</h5>
+                    <p class="flow text">
+                        Depuis le 19 septembre, c’est la dernière version stable.</br>
+                        Elle supporte Java 1.8, et améliore les performances globales
+                    </p>
+                    <h3>Conclusion</h3>
+                    <p class="flow text">
+                        Bien qu’il existe de nombreux IDE permettant de développer sur Android, seuls 2 sont vraiment utilisés : Android Studio et Eclipse ADT.</br>
+                        En effet, ces 2 IDE ont été successivement les IDE recommandés par Google, d’abord ADT, puis  Android Studio depuis décembre 2014.</br>
+                        Depuis cette date Android Studio ne cesse de gagner en popularité, et même Eclipse ADT est de moins en moins utilisé.</br>
+                        Le grand gagnant de ce comparatif est donc Android Studio.
+                    </p>
+                    <!-- NE MODIDIEZ RIEN APRES CE COMMENTAIRE -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer grey grey-text lighten-2 text-darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>Mobile modeling</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5>Menu</h5>
+                    <ul>
+                        <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+                        <li><a href="concept.html">Concept UML</a></li>
+                        <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+                        <li><a href="outils.html">Outils de modélisation IHM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey-text text-darken-1">
+            <div class="container">
+                Made with ♥ by Keyvan, Gilles, François
+
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,6 +15,7 @@
     <meta charset="utf-8">
     <title>Mobile modeling</title>
 </head>
+
 <body>
 
     <nav class="transparent">
@@ -21,14 +23,26 @@
             <div class="row">
                 <div class="col s1"></div>
                 <div class="col s10">
-                    <a href="index.html" class="brand-logo">Mobile modeling 2</a>
+                    <a href="index.html" class="brand-logo">Mobile modeling</a>
+                    <a href="#!" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="ComparatifAndroid_iOS.html" data-template="page1.html">Comparatif iOS/Android</a></li>
+                        <li><a href="ComparatifAndroid_iOS.html">Comparatif<i class="tiny material-icons right">equalizer</i></a></li>
+                        <li><a href="concept.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
+                        <li><a href="plateform_dev.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
+                        <li><a href="outils.html">Outils de modélisation IHM<i class="material-icons right">build</i></a></li>
                     </ul>
                 </div>
                 <div class="col s1"></div>
             </div>
         </div>
+
+        <ul id="slide-out" class="side-nav">
+            <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+            <li><a href="concept.html">Concept UML</a></li>
+            <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+            <li><a href="outils.html">Outils de modélisation IHM</a></li>
+          </ul>
+
     </nav>
 
     <div class="container main">
@@ -36,27 +50,112 @@
             <div class="col s12">
                 <div class="entry-content z-depth-1" data-default="page1.html">
                     <!-- Content -->
-                    <h3>Bienvenue</h3>
-                    <p>Site de modélisation des applications mobiles de la Licence Profesionnelle APSIO 2016-2017</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante eget arcu congue aliquet et et mi. Nullam placerat elit vitae pellentesque gravida. Cras elementum neque vitae urna iaculis, a facilisis turpis venenatis. Mauris interdum nunc diam, eu hendrerit purus laoreet non. Fusce feugiat, nisi non molestie auctor, ligula leo feugiat felis, at condimentum libero nisl at arcu. Pellentesque imperdiet sapien ornare est dictum gravida ut ac nibh. Curabitur sapien orci, venenatis ac aliquam vitae, rutrum nec felis. Cras interdum imperdiet eleifend. Nunc posuere, lectus ac aliquet posuere, mi velit mattis erat, at tempor sem nisi vitae est. Vestibulum sodales, lacus nec mattis rutrum, nunc massa efficitur ex, nec laoreet nisi turpis eget augue. Pellentesque nec mattis lectus, nec efficitur risus. Duis consequat condimentum aliquam. Vestibulum sit amet elementum ante. Mauris tempor blandit risus sed euismod.
+                    <h3 class="header center">Bienvenue</h3>
 
-                        Fusce ultrices nibh vel turpis scelerisque efficitur. Duis sit amet erat et dui lobortis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean dui ex, semper vel ligula sed, feugiat hendrerit sapien. Ut volutpat, arcu at convallis eleifend, erat sapien sodales eros, ac pulvinar lorem quam ut magna. Nunc id lacus dictum metus tincidunt rhoncus ut sit amet nibh. Cras risus enim, auctor vitae pharetra ut, feugiat ac ligula. Ut pharetra risus at tellus convallis lacinia. Phasellus vitae erat enim. Quisque eu iaculis arcu.
+                    <div class="icon-block">
+                        <div class="section">
 
-                        Cras a congue nisl. Praesent dictum neque volutpat nibh pretium, et viverra risus imperdiet. Curabitur fringilla quam vitae egestas consequat. Vivamus non suscipit leo. Cras vitae metus a dui pulvinar vestibulum. Ut interdum nisi et diam porta, id vestibulum felis sollicitudin. Etiam efficitur lectus nec aliquam aliquam. Praesent rhoncus mi non orci maximus, sollicitudin sollicitudin leo elementum. Vivamus tincidunt augue id mauris tincidunt malesuada. Etiam rutrum leo quis sagittis pretium.
+                            <!--   Icon Section   -->
+                            <div class="row">
+                                <div class="col s12 offset-l1 m6 l5">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/android-flat.png">
+                                            <span class="card-title">Comparatif</span>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="ComparatifAndroid_iOS.html">Comparatif</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        Sed fermentum consectetur lorem. Nunc rhoncus mollis lacus at finibus. Vivamus vitae odio vestibulum, luctus sem a, lacinia tortor. Donec pharetra ex in ex tincidunt, condimentum accumsan leo pellentesque. Nunc eget vehicula nibh. Donec dui risus, consequat eget ornare id, euismod in lacus. Duis id odio placerat, fringilla ipsum eget, posuere neque. Maecenas in convallis elit, eu gravida velit. Nulla non erat purus. Praesent elit libero, molestie et finibus nec, posuere sit amet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sit amet nibh a leo scelerisque finibus. Nam condimentum diam eget enim pharetra, non luctus massa imperdiet. Fusce feugiat nulla at massa pellentesque gravida.
+                                <div class="col s12 m6 l5">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/flat-uml.jpg">
+                                            <span class="card-title">Concept UML</span>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="concept.html">Concept UML</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 offset-l1 m6 l5">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/dev-flat.png">
+                                            <span class="card-title">Plateforme Dev</span>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="plateform_dev.html">Platerformes développement</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m6 l5">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/flat-graphic.png">
+                                            <span class="card-title">Modélisation d'interface</span>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="outils.html">Outils modélisation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        Praesent condimentum justo eget est condimentum, eu pulvinar ex euismod. Vivamus viverra dolor nunc, tempor pretium orci hendrerit vitae. Pellentesque finibus tortor sit amet massa semper lobortis. Vivamus et pharetra mi, at elementum odio. Nulla efficitur pretium lectus at gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque leo magna, feugiat sit amet dapibus id, semper eu metus. Curabitur fringilla maximus fermentum. Integer at turpis eu dolor pulvinar mollis. Aliquam rhoncus interdum nibh vitae gravida. Proin ut dignissim dolor.</p>
-                    <h4>Crédits :</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante eget arcu congue aliquet et et mi. Nullam placerat elit vitae pellentesque gravida. Cras elementum neque vitae urna iaculis, a facilisis turpis venenatis. Mauris interdum nunc diam, eu hendrerit purus laoreet non. Fusce feugiat, nisi non molestie auctor, ligula leo feugiat felis, at condimentum libero nisl at arcu. Pellentesque imperdiet sapien ornare est dictum gravida ut ac nibh. Curabitur sapien orci, venenatis ac aliquam vitae, rutrum nec felis. Cras interdum imperdiet eleifend. Nunc posuere, lectus ac aliquet posuere, mi velit mattis erat, at tempor sem nisi vitae est. Vestibulum sodales, lacus nec mattis rutrum, nunc massa efficitur ex, nec laoreet nisi turpis eget augue. Pellentesque nec mattis lectus, nec efficitur risus. Duis consequat condimentum aliquam. Vestibulum sit amet elementum ante. Mauris tempor blandit risus sed euismod.
+                        </div>
+                        </p>
+                    </div>
 
-                        Fusce ultrices nibh vel turpis scelerisque efficitur. Duis sit amet erat et dui lobortis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean dui ex, semper vel ligula sed, feugiat hendrerit sapien. Ut volutpat, arcu at convallis eleifend, erat sapien sodales eros, ac pulvinar lorem quam ut magna. Nunc id lacus dictum metus tincidunt rhoncus ut sit amet nibh. Cras risus enim, auctor vitae pharetra ut, feugiat ac ligula. Ut pharetra risus at tellus convallis lacinia. Phasellus vitae erat enim. Quisque eu iaculis arcu.
+                    <div class="row">
+                        <div class="col s12 m10 offset-m1">
 
-                        Cras a congue nisl. Praesent dictum neque volutpat nibh pretium, et viverra risus imperdiet. Curabitur fringilla quam vitae egestas consequat. Vivamus non suscipit leo. Cras vitae metus a dui pulvinar vestibulum. Ut interdum nisi et diam porta, id vestibulum felis sollicitudin. Etiam efficitur lectus nec aliquam aliquam. Praesent rhoncus mi non orci maximus, sollicitudin sollicitudin leo elementum. Vivamus tincidunt augue id mauris tincidunt malesuada. Etiam rutrum leo quis sagittis pretium.
-
-                        Sed fermentum consectetur lorem. Nunc rhoncus mollis lacus at finibus. Vivamus vitae odio vestibulum, luctus sem a, lacinia tortor. Donec pharetra ex in ex tincidunt, condimentum accumsan leo pellentesque. Nunc eget vehicula nibh. Donec dui risus, consequat eget ornare id, euismod in lacus. Duis id odio placerat, fringilla ipsum eget, posuere neque. Maecenas in convallis elit, eu gravida velit. Nulla non erat purus. Praesent elit libero, molestie et finibus nec, posuere sit amet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sit amet nibh a leo scelerisque finibus. Nam condimentum diam eget enim pharetra, non luctus massa imperdiet. Fusce feugiat nulla at massa pellentesque gravida.
-
-                        Praesent condimentum justo eget est condimentum, eu pulvinar ex euismod. Vivamus viverra dolor nunc, tempor pretium orci hendrerit vitae. Pellentesque finibus tortor sit amet massa semper lobortis. Vivamus et pharetra mi, at elementum odio. Nulla efficitur pretium lectus at gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque leo magna, feugiat sit amet dapibus id, semper eu metus. Curabitur fringilla maximus fermentum. Integer at turpis eu dolor pulvinar mollis. Aliquam rhoncus interdum nibh vitae gravida. Proin ut dignissim dolor.</p>
+                            <ul class="collapsible collapsible-accordion" data-collapsible="accordion">
+                                <li class="active">
+                                    <div class="collapsible-header active"><i class="material-icons">code</i>Développeurs</div>
+                                    <div class="collapsible-body" style="display: none;">
+                                        <p>Keyvan Estermann</br>
+                                            François Garcia</br>
+                                            Gilles Ferrand</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="collapsible-header"><i class="material-icons">swap_calls</i>Concept</div>
+                                    <div class="collapsible-body" style="display: none;">
+                                        <p>Olivier Vidal</br>
+                                            Rémi Pomarede</br>
+                                            Jean-Éric Nzaramba</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="collapsible-header"><i class="material-icons">build</i>Outils de modélisation d'interfaces</div>
+                                    <div class="collapsible-body" style="display: block;">
+                                        <p>Eliana Valles</br>
+                                            Manon Camboulives</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="collapsible-header"><i class="material-icons">web</i>Plateformes de développement Android</div>
+                                    <div class="collapsible-body" style="display: block;">
+                                        <p>Nathan Coustenoble</br>
+                                            Jérémy Le Nevé</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="collapsible-header"><i class="material-icons">equalizer</i>Comparatif iOS / Android</div>
+                                    <div class="collapsible-body" style="display: block;">
+                                        <p>Gabriel Smith</br>
+                                            Cassandra Clech</br>
+                                            Cindy Rébeillé</br>
+                                            Romain Martin</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,22 +166,22 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5>Mobile modeling 2</h5>
+                    <h5>Mobile modeling</h5>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5>Menu</h5>
                     <ul>
-                        <li><a class="grey-text text-darken-2" href="#!" data-template="page1.html">Lien 1</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!" data-template="page2.html">Lien 2</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!" data-template="page3.html">Lien 3</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!" data-template="page4.html">Lien 4</a></li>
+                        <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+                        <li><a href="concept.html">Concept UML</a></li>
+                        <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+                        <li><a href="outils.html">Outils de modélisation IHM</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright grey-text text-darken-1">
             <div class="container">
-                © 2016 - LP APSIO
+                Made with ♥ by Keyvan, Gilles, François
             </div>
         </div>
     </footer>
@@ -92,4 +191,5 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
+
 </html>
