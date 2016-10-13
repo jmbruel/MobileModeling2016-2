@@ -1,34 +1,15 @@
 # MobileModeling2016-2
 
-## Contexte
+## Développeurs
 
-Site du cours de modélisation des applications mobiles de la LP APSIO 2016-2017.
+Keyvan
+Gilles
+François
 
-Le site du cours : https://jmbruel.github.io/teaching/MobileModeling.html
+## Implémenter une nouvelle page 
 
-## Site Web
+Dans vues/, créer une copie de template.html
+Lui donner un nom explicite sans majuscules, sans accents, sans espaces (sinon underscore), sans apostrophes
+Exemple : page_1.html, page_2.html, page_3.html
 
-François Garcia
-Keyvan Estermann
-Gilles Ferrand
-
-## Concepts
-
-VIDAL Olivier
-POMAREDE Remi
-NZARAMBA Jean-Eric
-
-## Outils de modélisation d'interfaces
-
-Eliana VALLES
-Manon CAMBOULIVES
-
-## Plateformes de développement Android
-
-Nathan COUSTENOBLE
-Brice Taillefer
-Jérémy LE NEVÉ
-
-## Comparatif iOS/Android
-
-Gabriel, Cassandra, Cindy, Romain
+Pour le visualiser, ouvrez le fichier manuellement dans le navigateur. L'implémentation de la navigation sera faite au fur et a mesure.
