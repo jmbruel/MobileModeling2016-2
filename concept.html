@@ -10,29 +10,39 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta charset="utf-8">
-    <title>Exemple de page</title>
+    <title>Concepts UML</title>
 </head>
 
 <body>
 
-    <nav class="transparent">
-        <div class="nav-wrapper">
-            <div class="row">
-                <div class="col s1"></div>
-                <div class="col s10">
-                    <a href="index.html" class="brand-logo">Mobile modeling</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="ComparatifAndroid_iOS.html">Comparatif<i class="tiny material-icons right">phonelink_ring</i><i class="tiny material-icons right">android</i></a>
-                        </li>
-                        <li><a href="concept.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
-                        <li><a href="plateform_dev.html" data-template="page1.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
-                    </ul>
-                </div>
-                <div class="col s1"></div>
+<nav class="transparent">
+    <div class="nav-wrapper">
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s10">
+                <a href="index.html" class="brand-logo">Mobile modeling</a>
+                <a href="#!" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="ComparatifAndroid_iOS.html">Comparatif<i class="tiny material-icons right">equalizer</i></a></li>
+                    <li><a href="concept.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
+                    <li><a href="plateform_dev.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
+                    <li><a href="outils.html">Outils de modélisation IHM<i class="material-icons right">build</i></a></li>
+                </ul>
             </div>
+            <div class="col s1"></div>
         </div>
-    </nav>
+    </div>
+
+    <ul id="slide-out" class="side-nav">
+        <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+        <li><a href="concept.html">Concept UML</a></li>
+        <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+        <li><a href="outils.html">Outils de modélisation IHM</a></li>
+    </ul>
+
+</nav>
 
 
     <div class="container main">
@@ -193,14 +203,15 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5>Mobile Modeling</h5>
+                    <h5>Mobile modeling</h5>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5>Menu</h5>
                     <ul>
-                        <li><a href="ComparatifAndroid_iOS.html" data-template="page1.html">Comparatif iOS/Android</a></li>
-                        <li><a href="concept.html" data-template="page1.html">Concept UML</a></li>
-                        <li><a href="plateform_dev.html" data-template="page1.html">Platerformes de dev</a></li>
+                        <li><a href="ComparatifAndroid_iOS.html">Comparatif</a></li>
+                        <li><a href="concept.html">Concept UML</a></li>
+                        <li><a href="plateform_dev.html">Platerformes de dev</a></li>
+                        <li><a href="outils.html">Outils de modélisation IHM</a></li>
                     </ul>
                 </div>
             </div>
@@ -208,6 +219,7 @@
         <div class="footer-copyright grey-text text-darken-1">
             <div class="container">
                 Made with ♥ by Keyvan, Gilles, François
+
             </div>
         </div>
     </footer>
